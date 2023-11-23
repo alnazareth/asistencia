@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<link rel="stylesheet" type="text/css" href="../vista/css/menu.css">
+	</head>
+	<body>
+		<ul id="menu" align='center'>
+			<li> <a href="../vista/principal.php"><img src="../vista/img/iconos/home-icon-silhouette.png" width="20" height="20" border="0">&nbsp&nbspInicio</a> </li>
+			<li>
+				<a href="#"><img src="../vista/img/iconos/male-job-search-symbol.png" width="20" height="20" border="0">&nbsp&nbspEmpleado</a>
+				<ul>
+					<li ><a href="../vista/empleado_registrar.php">Registrar</a></li>
+					<li ><a href="../vista/empleado_consultar.php">Consultar</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#"><img src="../vista/img/iconos/raise-your-hand-to-ask.png" width="20" height="20" border="0">&nbsp&nbspPermiso</a>
+				<ul>
+					<li ><a href="../vista/permiso_registrar.php">Registrar</a></li>
+					<li ><a href="../vista/permiso_consultar.php">Consultar</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#"><img src="../vista/img/iconos/quill-drawing-a-line.png" width="20" height="20" border="0">&nbsp&nbspAsistencia</a>
+				<ul>
+					<li ><a href="../vista/asistencia_registrar.php">Registrar</a></li>
+					<li ><a href="../vista/asistencia_consultar.php">Consultar</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="../vista/horario_consultar.php"> <img src="../vista/img/iconos/icon (1).png" width="20" height="20" border="0">&nbsp&nbsp Horario</a>
+			</li>
+			<?php
+				if($_SESSION['tipo_usua']=="administrador")
+				{
+					echo'
+					<li>
+						<a href="#"><img src="../vista/img/iconos/usuario.png" width="20" height="20" border="0">&nbsp&nbspUsuario</a>
+						<ul>
+							<li ><a href="../vista/usuario_registrar.php">Registrar</a></li>
+							<li ><a href="../vista/usuario_consultar.php">Consultar</a></li>
+						</ul>
+					</li>';
+				}
+				else
+				{
+					echo'<li><a href="manual/Manual de usuario.pdf" target="_blank"><img src="../vista/img/iconos/information-button.png" width="20" height="20" border="0">&nbsp&nbsp Ayuda</a></li>';
+				}
+			?>
+				<li>
+					<a href="#"><img src="../vista/img/iconos/businessman-discussing-a-progress-report.png" width="20" height="20" border="0">&nbsp&nbsp Reporte</a>
+					<ul>
+						<li ><a href="../controlador/PDF/examples/usuario.php" target="_blank">Usuario</a></li>
+						<li ><a href="../controlador/PDF/examples/personal.php" target="_blank">Personal</a></li>
+						<li ><a href="../controlador/PDF/examples/permiso.php" target="_blank">Permiso</a></li>
+						<li ><a href="../controlador/PDF/examples/asistencia.php" target="_blank">Asistencia</a></li>
+						<li ><a href="../controlador/PDF/examples/inasistencia.php" target="_blank">Inasistencia</a></li>
+						<?php
+							if($_SESSION['tipo_usua']=="administrador")
+							{
+								echo'<li ><a href="../controlador/PDF/examples/sesion.php" target="_blank">Sesion</a></li>
+								<li ><a href="../controlador/PDF/examples/auditoria.php" target="_blank">Auditoria</a></li>';
+							}
+						?>
+					</ul>
+				</li>
+			<li>
+				<a href="../controlador/salir.php"><img src="../vista/img/iconos/exit-door-symbol.png" width="20" height="20" border="0">&nbsp&nbsp Salir</a>
+			</li>
+		</ul>
+	</body>
+</html>
+

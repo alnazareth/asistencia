@@ -1,0 +1,69 @@
+body{
+  font-family: "arial";
+  background-image: url(../img/mobil.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+}
+h2{
+  margin-left: 400px;
+}
+  * {
+        margin:0px;
+        padding:0px;
+      }
+
+      #header {
+        margin:auto;
+        width:660px;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+
+      ul, ol {
+        list-style:none;
+      }
+
+      .nav > li {
+        float:left;
+      }
+
+      li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+      }
+
+      li a:hover {
+        background-color:#434343;
+      }
+
+      li ul {
+        display:none;
+        position:absolute;
+        min-width:40px;
+      }
+
+      li:hover > ul {
+        display:block;
+      }
+
+       li ul li {
+        position:relative;
+      }
+
+      li ul li ul {
+        right:40px;
+        top:0px;
+      }
+}
+
+nav ul a li{
+  display: inline-block;
+  margin-left: 40px;
+  cursor: pointer;
+  color: orange;
+  text-decoration: underline;
+}
+

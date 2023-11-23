@@ -1,0 +1,108 @@
+.titulo
+{
+	text-align:center;
+}
+h4
+{
+	padding:0px;
+	margin:0px;
+}
+#titu
+{
+	margin:40px auto ;
+}
+td
+{
+	padding:3px;
+}
+.tabla{
+	margin: auto;
+	margin-top: 80px;
+	height: auto;
+}
+table{
+	border-collapse: collapse;
+	border: 1px solid #282828;
+	margin: 0px auto;
+	font-size: 12.5px;
+
+}
+table th{
+	background-color:#133C77;
+	padding: 10px 0px;
+	text-align: center;
+	color: #F3F4FF;
+}
+table td{
+	padding: 10px 5px;
+	text-align: center;
+	border-bottom: 1px solid #C4C6BB;
+}
+table .tr{
+	background-color: #C4C6BB;
+}
+.sicca{
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 0px;
+	bottom: -40.5px;
+	font-style: italic;
+	font-size: 10px;
+}
+.logoCH{
+	/*background-image: url("../../../vista/css/img/logo.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	position: absolute;
+	height: 130px;
+	width: 200px;
+	opacity: 1;
+	margin: 10px 0px 0px 20px;
+}
+.header{
+	width: 95%;
+	height: 150px;
+	border: 1.5px solid #000;
+	border-radius: 5px;
+	margin: 0px 20px;
+}
+.desc{
+	width: 55%;
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: center;
+}
+.aso{
+	width: 30%;
+	margin-top: -80px;
+	margin-left: 110px;
+	text-align: center;
+}
+.cont{
+	width: 95%;
+	border: 1.5px solid #000;
+	border-radius: 5px;
+	margin: 0px 20px;
+}
+.inf{
+	font-size: 14px;
+	text-align: justify;
+	width: 97%;
+	margin: 10px;
+}
+.inf table td,.inf table th{
+	font-size: 14px;
+}
+.inf table td {
+	text-align: left;
+	text-align: right;
+	width: 100px;
+}
+.inf table th {
+	width: 400px;
+	text-align: left;
+	background: transparent;
+	border-bottom: 1px solid #C4C6BB;
+}

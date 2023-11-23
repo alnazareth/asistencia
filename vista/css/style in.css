@@ -1,0 +1,19 @@
+body{
+  background-image: url(../img/background2-1024x640.jpg);
+  background-repeat: no-repeat;
+}
+h2{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+.caja{
+  width: 600px;
+height: 200px;
+background:#fff;
+margin-left: 180px;
+padding: 30px;
+background:url(../img/Infinite-White-600.jpg);
+
+
+}

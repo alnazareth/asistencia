@@ -1,0 +1,207 @@
+
+*{margin: 0px;padding: 0px;}
+body{
+	/*background:-webkit-linear-gradient(top,#decdc8,#f1f8e9);*/
+	background: url(../img/mobil.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 5% 15%;
+}
+#separador{
+	width: 100%;
+	height: 140px;
+}
+#icon
+{
+	float:left;
+	display: inline-block;
+}
+/***************************************Pagina**********************************************/
+#general{
+	background-color: #F3F4FF;
+	margin: 30px auto;
+	padding: 0px 0px 30px 0px;
+	min-height: 900px;
+	max-height: auto;
+	width: 950px;
+	box-shadow: 0px 3px 25px #814236;
+}
+#banner{
+	width: 100%;
+	height: 130px;
+	background-color:white;
+	float: left;
+	position: relative;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: #F3F4FF;
+}
+#letra1{
+	margin: 2% 0px 0px 20% ;
+	float: left;
+	font-style: italic;
+	font-size: 55px;
+	color: black;
+	overflow: none;
+	display: inline-block;
+}
+#img{
+	background-image: url("../img/descarga.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70% 80%;
+
+	position: absolute;
+	height: 130px;
+	width: 200px;
+	opacity: 1;
+	margin: 0px 10px;
+}
+#informacion{
+	width: 100%;
+	height: 50px;
+	background-color:rgb(0,0,255);
+	float: left;
+	position: relative;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: #F3F4FF;
+	/*border: 1px solid #000;*/
+}
+.hora,.fecha{
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	height: 85%;
+	width: 110px;
+	float: left;
+	position: relative;
+	display: inline-block;
+	overflow: none;
+	font-size: 17px;
+	font-style: normal;
+}
+#hora , #fecha
+{
+	width: 100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	/*color:#CE0909;*/
+	background:none;
+}
+.centro{
+	margin: 10px auto;
+	display: inline-block;
+	position: relative;
+	overflow: none;
+	width: auto;
+	height: 88%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	/*color:#CE0909;*/
+	background:none;
+	font-style: italic;
+}
+.usuario{
+	float: right;
+	margin: 5px 10px 0px 0px;
+	padding: 0px 15px ;
+	height: 85%;
+	min-width: 220px;
+	position: relative;
+	display: inline-block;
+	overflow: none;
+	font-size: 17px;
+	font-style: normal;
+}
+.salir{
+	float: right;
+	margin: 5px 10px 0px 0px;
+	padding: 0px;
+	height: 85%;
+
+}
+#salir :hover{
+	margin: 5px 0px 0px 0px;
+	box-shadow: 0px 0px 15px 3px #CE0909;
+}
+/*******************************************************************************************/
+.input
+	{
+	height:35px;
+	width:200px;
+	padding: 0px 0px 0px 10px;
+	border-style:solid;
+	font-size:12px;
+ 	border: 1px solid rgba(91, 90, 90, 0.7);
+	background: rgba(238, 236, 240, 0);
+	box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+.inputsele
+	{
+	height:35px;
+	width:200px;
+	padding: 0px 0px 0px 10px;
+	border-style:solid;
+	font-size:12px;
+ 	border: 1px solid rgba(91, 90, 90, 0.7);
+	background: rgba(238, 236, 240, 0);
+	box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+#formularios{
+	margin-left:30%;
+	margin-top: 10%;
+	display: block;
+	float: none;
+	position: relative;
+	width: 65%;
+	height: auto;
+	padding: 0px;
+	border: 1px solid #133C77;
+}#tablefor{
+	margin-left: 10px;
+}
+#tablefor td{
+	padding: 5px 2px;
+}
+.input2{
+	margin:0;
+	height:30px;
+	width:160px;
+	background:blue;
+	border-color:#133C77;
+	color:#F3F4FF;
+	font-weight:bold;
+	font-size:16px;
+	border-style:solid;
+}
+.input2:hover{
+	background:#0351AF;
+	font-weight:bold;
+	font-size:16px;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,1) ;
+}
+.error{
+	font-size: 20px;
+	color: rgba(255,0,0,0.9);
+}
+.bien{
+	font-size: 20px;
+	color: rgba(0,160,0,1);
+}
+#tablas table{
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: 25%;
+}
+#tablas table td{
+	padding: 5px;
+}
+#tablas table th{
+	background-color:#133C77;
+	color: #F3F4FF;
+	padding: 5px;
+	border:none;
+}
